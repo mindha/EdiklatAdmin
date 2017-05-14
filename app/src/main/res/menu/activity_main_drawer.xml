@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_list_training"
+            android:icon="@drawable/ic_menu_send"
+            android:title="List Training" />
+        <item
+            android:id="@+id/nav_input_training"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Input Training" />
+        <item
+            android:id="@+id/nav_cost_training"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cost Training" />
+        <item
+            android:id="@+id/nav_input_user"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Input User" />
+
+
+    </group>
+
+    <item android:title="User">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
